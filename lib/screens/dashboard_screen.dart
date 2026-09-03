@@ -366,7 +366,7 @@ class DashboardScreen extends StatelessWidget {
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      // Etiqueta explicativa ergonómica
+                      // Etiqueta explicativa ergonómic
                       Text(
                         'Que deseas hacer?',
                         style: GoogleFonts.plusJakartaSans(
