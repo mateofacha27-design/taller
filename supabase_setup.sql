@@ -1,7 +1,4 @@
--- ==============================================================================
--- SCRIPT SQL PARA SUPABASE - SALÓN 317 (GUÍA SENA ADSO)
--- Copia y pega todo este script en: Supabase Dashboard -> SQL Editor -> New query -> Run
--- ==============================================================================
+
 
 -- 1. Asegurar extensión UUID
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -48,7 +45,7 @@ CREATE TRIGGER on_auth_user_created
   AFTER INSERT ON auth.users
   FOR EACH ROW EXECUTE FUNCTION public.handle_new_user();
 
--- 6. Habilitar Replicación Realtime de manera segura (idempotente)
+
 DO $$
 BEGIN
   IF NOT EXISTS (

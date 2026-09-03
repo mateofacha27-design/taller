@@ -1,4 +1,4 @@
-// lib/models/salon_model.dart
+
 
 class Salon {
   final String id;
