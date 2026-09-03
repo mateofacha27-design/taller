@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(const Salon317App());
     expect(find.text('SALÓN 317'), findsOneWidget);
 
-    // Avanzar el timer del splash screen
+    // Avanzar el timer dl splash screen
     await tester.pump(const Duration(milliseconds: 1500));
     await tester.pumpAndSettle();
   });
