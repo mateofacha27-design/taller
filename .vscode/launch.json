@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Salón 317 (Pixel 4 / Emulador)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "Pixel_4",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "Salón 317 (Dispositivo Activo)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    }
+  ]
+}
