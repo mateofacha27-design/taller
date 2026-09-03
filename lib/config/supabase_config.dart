@@ -1,4 +1,4 @@
-// lib/config/supabase_config.dart
+
 
 class SupabaseConfig {
   /// URL de tu proyecto Supabase (ya configurada con tu panel)

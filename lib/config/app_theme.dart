@@ -8,7 +8,7 @@ class AppColors {
   static const Color primaryLight = Color(0xFFD1FAE5);
   static const Color primaryDark = Color(0xFF065F46);
 
-  // Semáforo Ergonómico
+  
   static const Color statusOk = Color(0xFF16A34A); // BIEN / OPERATIVO
   static const Color statusOkBg = Color(0xFFDCFCE7);
   static const Color statusFail = Color(0xFFDC2626); // MAL / FALLA

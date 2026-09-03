@@ -1,4 +1,4 @@
-// lib/models/equipo_model.dart
+
 
 class Equipo {
   final String id;
